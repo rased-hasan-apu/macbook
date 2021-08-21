@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+    <title>MacBook pro shopping </title>
+    
+</head>
+<body>
+    <div class="container px-4 py-4">
+        <div class="row gx-5">
+          <div class="col-md-6">
+           <div class="p-3 "> <img src="img/mac.png" alt="" class="img-style"></div>
+          </div>
+          <div class="col-md-6">
+            <div class=" ">
+                <h2> Customize your Blue 24-inch iMac with Apple M1 chip. </h2>
+                <p class="style">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard -US English 
+                    Memory </p>
+                </div>
+                <div>
+                    <p> <strong>Memory</strong> </p>
+                    <button class="rounded bg-white"id="memory-1"> 8GB unified memory </button>
+                    <button class="rounded bg-white" id="memory-2"> 16GB unified memory </button>
+                </div>
+                <div>
+                    <p class=""> <strong>Storage</strong> </p>
+                    <button class="rounded bg-white style"id="storage-1"> 256GB SSD storage</button>
+                    <button class="rounded bg-white style"id="storage-2"> 512GB SSD storage</button>
+                    <button class="rounded bg-white style"id="storage-3"> 1TB SSD storage</button>
+                </div>
+               <div>
+                <p class="style"> <strong>Choose your delivery option</strong></p>
+                <button class="rounded bg-white style" id="delivery-1">Friday, Aug 25 FREE Delivery Friday</button>
+                <button class="rounded bg-white style" id="delivery-2">Aug 21 Delivery charge $20</button>
+               </div>
+                <div class="py-4">
+                    <table class="table">
+                        
+                        <tbody>
+                            <tr>
+                                <th scope="row ">Best price</th>
+                                <td>$<span id="best-inp">1299</span></td>
+                                
+                              </tr>
+                          <tr>
+                            <th scope="row">Extra Memory Cost</th>
+                            <td>$<span id="memory-inp">0</span></td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Extra Storage Cost</th>
+                            <td>$<span id="storage-inp" >0</span></td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Delivery charge</th>
+                            <td>$<span id="delivery-inp">0</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total price </th>
+                            <td>$<span id="total-inp">1299</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 text-center">
+        <h1> Total: $<span id = "totalAmountInp">1299</span></h1>
+      </div>
+      <script src="js/total.js"></script>
+</body>
+</html>
